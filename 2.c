@@ -32,7 +32,7 @@ temp->next=NULL;
 }
 }
 
-void remove()
+void remov()
 {
 int item,search;
 printf("Enter the Element: ");
@@ -91,7 +91,7 @@ scanf("%d",&c);
    
 if(c==1)
 {       
-remove();
+remov();
 printf("AFTER REMOVING:\n");
 display();
 }
